@@ -1,0 +1,73 @@
+:root{
+  --navbackground:#e7dddd;
+  --text-color:#3f3434;
+  --buttonColor:#b59d57;
+}
+
+*{
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+  margin: 0px;
+  
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin:0;
+}
+
+.container-fluid{
+  width:100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin:0 auto;
+}
+
+.row {
+  display: flex;
+  display: -ms-flexbox;
+  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  margin-left:-15px;
+  margin-right: -15px;
+}
+
+ul{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+.justify-content-between{
+  justify-content: space-between;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+.flex-grow-1{
+  flex:1;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.flex-column{
+  flex-direction: column;
+}
+
+.flexbox-row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.flexbox-column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
