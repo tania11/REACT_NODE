@@ -7,7 +7,7 @@ export default function Bannner(props) {
             <BannerStyled className="banner row flex-column">
                 <img className="banner-img" src={props.image} alt="" />
                 <div className="banner-content">
-                    {props.children}
+                    {props.children} Hello
                 </div>
             </BannerStyled>
         </>
